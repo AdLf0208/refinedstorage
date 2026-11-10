@@ -1,0 +1,31 @@
+{
+  "modifier": [
+    {
+      "type": "refinedstorage:energy"
+    },
+    {
+      "include": [
+        "minecraft:custom_name"
+      ],
+      "source": "block_entity",
+      "type": "minecraft:copy_components"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "name": "refinedstorage:controller",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "refinedstorage:blocks/controller",
+  "type": "minecraft:block"
+}

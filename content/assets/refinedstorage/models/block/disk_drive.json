@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "refinedstorage:block/disk_drive/top",
+    "up": "refinedstorage:block/disk_drive/top",
+    "north": "refinedstorage:block/disk_drive/front",
+    "south": "refinedstorage:block/disk_drive/back",
+    "east": "refinedstorage:block/disk_drive/right",
+    "west": "refinedstorage:block/disk_drive/left",
+    "particle": "refinedstorage:block/disk_drive/front"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "block.refinedstorage.cable": "Cable",
+  "block.refinedstorage.controller": "Controller",
+  "block.refinedstorage.disk_drive": "Disk Drive",
+  "block.refinedstorage.grid": "Grid",
+  "item.refinedstorage.1k_storage_disk": "1k Storage Disk",
+  "item.refinedstorage.1k_storage_disk.help": "Holds 1,024 items",
+  "item.refinedstorage.cable.help": "Connects storage network devices with each other.",
+  "item.refinedstorage.controller.help": "The heart of the storage network: without one the network is offline.",
+  "item.refinedstorage.disk_drive.help": "Accepts storage disks to provide the storage network with storage space.",
+  "item.refinedstorage.grid.help": "Allows for interacting with the storage network."
+}

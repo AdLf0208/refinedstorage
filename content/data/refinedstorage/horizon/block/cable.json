@@ -1,0 +1,47 @@
+{
+  "template": "minecraft:stone",
+  "properties": {
+    "hardness": 0.5,
+    "explosion_resistance": 3.0,
+    "requires_tool": false,
+    "map_color": 8,
+    "sounds": "minecraft:white_wool",
+    "occludes": false
+  },
+  "state_properties": {
+    "north": {
+      "type": "boolean"
+    },
+    "east": {
+      "type": "boolean"
+    },
+    "south": {
+      "type": "boolean"
+    },
+    "west": {
+      "type": "boolean"
+    },
+    "up": {
+      "type": "boolean"
+    },
+    "down": {
+      "type": "boolean"
+    }
+  },
+  "shapes": {
+    "default": [
+      [
+        6,
+        6,
+        6,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "collision_shapes": {
+    "default": []
+  },
+  "item": true
+}

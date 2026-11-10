@@ -1,0 +1,11 @@
+{
+  "icon": "refinedstorage:controller",
+  "title": "Refined Storage",
+  "items": [
+    "refinedstorage:controller",
+    "refinedstorage:cable",
+    "refinedstorage:disk_drive",
+    "refinedstorage:grid",
+    "refinedstorage:1k_storage_disk"
+  ]
+}

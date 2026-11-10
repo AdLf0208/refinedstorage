@@ -1,0 +1,13 @@
+# Port-owned content mod for Refined Storage slice 1: the item network core.
+# Assets are carried from the exact ATM10 jar (refinedstorage-neoforge-2.0.9,
+# MIT) and upgraded to the 26.3 formats; the block/item declarations, the disk
+# drive and cable models and the blockstates are this port's own, because
+# upstream bakes those two in code. Licence: MIT (refinedmods/refinedstorage2).
+id = "refinedstorage"
+name = "Refined Storage"
+version = "2.0.9"
+description = "The item network core: controller, cable, disk drive, 1k storage disk and grid"
+authors = ["Refined Mods"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
