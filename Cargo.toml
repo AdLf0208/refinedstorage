@@ -1,0 +1,17 @@
+[package]
+# Ported from: Refined Storage 2.0.9 (refinedmods/refinedstorage2, MIT),
+# Minecraft Java 1.21.1 NeoForge. Local-only until the maintainer approves.
+name = "horizon-refinedstorage"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Refined Storage for Horizon: the item network core (controller, cable, disk drive, 1k disk, grid)"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/refinedstorage/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"

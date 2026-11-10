@@ -1,0 +1,16 @@
+{
+  "template": "minecraft:stone",
+  "properties": {
+    "hardness": 4.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "light": 0,
+    "map_color": 11,
+    "sounds": "minecraft:stone"
+  },
+  "state_properties": {
+    "energy_type": { "type": "enum", "values": ["off", "on"] }
+  },
+  "default_state": { "energy_type": "on" },
+  "item": true
+}

@@ -1,0 +1,15 @@
+{
+  "template": "minecraft:barrel",
+  "properties": {
+    "hardness": 4.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "map_color": 11,
+    "sounds": "minecraft:stone"
+  },
+  "state_properties": {
+    "active": { "type": "boolean" }
+  },
+  "default_state": { "active": "false" },
+  "item": true
+}

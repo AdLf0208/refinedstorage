@@ -1,0 +1,49 @@
+id = "refinedstorage"
+kind = "native-mod"
+name = "refinedstorage"
+summary = "A Horizon port of refinedstorage."
+description = """
+A port of [refinedstorage](refinedmods/refinedstorage2) for Horizon.
+
+**Implemented so far**
+
+- Network** (`runtime::network`): the connected component of the four network
+- blocks over face-adjacent positions, capped at 512 blocks. A component with a
+- controller is **online**; without one nothing works (upstream: the controller
+- is the network's root and every node is inactive without it). The grid's
+- `active` block state and the `/refinedstorage info` line both read it.
+- Cable connections** (upstream `computeConnections`): the block declares six
+- boolean state properties (`north/east/south/west/up/down`), and the cable's
+- tick writes each one from whether its neighbour is a network block. That is
+
+**Not yet ported**
+
+- No energy.** The controller is the network's on/off root but consumes and
+- stores nothing; its `energy_type` state has two values (`off`/`on`) where
+- upstream has four energy levels. No FE hook is needed or used.
+- The rest of the mod does not exist**: crafters, exporters/importers,
+- external storage, interfaces, relays, network transmitters/receivers,
+- security manager, wireless transmitter/grid, portable grid, crafting/pattern
+- grids, autocrafting, fluid storage and disks, the other disk sizes (4k/16k/
+- k/creative), storage blocks, upgrades, the config file, and the coloured
+
+Original copyright and licence notices are kept in this repository. Pinned to
+Horizon 1d63e0a and horizon-mixins 5a64af93. Help with the remaining slices is
+welcome.
+"""
+authors = ["AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/refinedstorage"
+icon = "icons/refinedstorage.png"
+categories = ["utility"]
+tags = ["port", "horizon"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "refinedstorage.hnmod"
+sha256 = "02c39b4871aafe303faa23c68bd3eb2d70717890db80d2ec60f061afe175bd32"
+changelog = "First release"
